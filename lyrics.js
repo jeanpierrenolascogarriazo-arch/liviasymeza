@@ -34,16 +34,16 @@ var OUTRO_AT = null;
 // Si hay mas fotos que espacios en pantalla, se van turnando solas.
 // Si una foto no existe, se muestra un marco con "tu foto aqui".
 var PHOTOS = [
-  "https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1900&h=1400",
-  "fotos/2.jpg",
-  "fotos/3.jpg",
-  "fotos/4.jpg",
-  "fotos/5.jpg",
-  "fotos/6.jpg",
-  "fotos/7.jpg",
-  "fotos/8.jpg",
-  "fotos/9.jpg",
-  "fotos/10.jpg"
+  "gatito.jpg",
+  "gojo.jpg",
+  "db.jpg",
+  "lobo.jpg",
+  "oso.jpg",
+  "parao.jpg",
+  "pro.jpg",
+  "sa.jpg",
+  "uwu.jpg",
+  "vegeto.jpg"
   // { src: "fotos/11.jpg", caption: "Te amo" },
 ];
  
