@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doma - Misterio de Mujer</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Fondo: espacio exterior -->
+<div id="nebula"></div>
+<canvas id="space"></canvas>
+<div id="vignette"></div>
+
+<!-- Collage de fotos -->
+<div id="collage"></div>
+
+<!-- Letra -->
+<div id="stage">
+  <div id="wrap"><div class="lyric-line" id="cur"></div></div>
+  <div class="sep"></div>
+  <div id="nexts"></div>
+</div>
+
+<!-- Mensaje final -->
+<div id="outro">
+  <div class="heart" id="outHeart">&#9829;</div>
+  <h2 id="outTo"></h2>
+  <p id="outMsg"></p>
+  <button id="replay">Volver a empezar</button>
+</div>
+
+<!-- Intro -->
+<div id="intro">
+  <div class="for" id="introFor"></div>
+  <h1 id="introTitle"></h1>
+  <div class="sub" id="introSub"></div>
+  <button id="btn">&#9829; Comenzar</button>
+</div>
+
+<div id="sync">[ ] sync</div>
+<div id="clock">0.00s</div>
+<audio id="aud" preload="auto"></audio>
+<div id="hint">&#9834; Arrastra tu MP3 y tus fotos aqui &middot; [ ] sincronia &middot; T = ver tiempo</div>
+
+<!-- 1) Letra, tiempos, fotos y dedicatoria: aqui editas -->
+<script src="lyrics.js"></script>
+<!-- 2) Motor (no necesitas tocarlo) -->
+<script src="script.js"></script>
+</body>
+</html>
